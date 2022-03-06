@@ -40,6 +40,12 @@ for i in range(n) :
         c[i][j] = input('masukan x' +str(j+1)+'= ')
     d[i] = input(' = ')
 
+for i in range(n):
+    for j in range(m) :
+        print(c[i][j], end=' ')
+    print(d[i])
+
+
 A,X = gaussJordan(c,d)
 
 print("\nMatrix Eselon Baris Tereduksi : ")
